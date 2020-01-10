@@ -32,7 +32,7 @@ std::wstring get_shell_path(std::wstring filename) {
   std::wstring shellpath;
 
   if (file_exists(filename)) {
-    return shellpath;
+    return filename;
   }
 
   wchar_t buffer_[MAX_ENV];
